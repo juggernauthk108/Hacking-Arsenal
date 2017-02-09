@@ -1,0 +1,7 @@
+i started the vm. but the scans arent working on any of nmap scans arent showning up anything. I think there is some problem with the adapter settings i suppose.
+the problem was not wotht the adapter the vm itself is very sneaky and teda to not respond to the recon pings
+GOT TO LEARN NMAP
+these are suttle changes to the flags of nmap scan can cause a great change in the speed and the accuracy of the scan of the network.
+I have to work on recon.
+It is said by all the big players to be the greatest step in hacking. Hope i learn my lessons soon. 
+when nothing is being able to be traced go with wireshark and listen to the connnections from the victim machine

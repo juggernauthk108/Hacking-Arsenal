@@ -1,0 +1,23 @@
+i have learnt some things about nmap.... first it'll be great to know about the tco hand shake that takes pkacve before the data tranfer begins.. 
+It is sa three step handsjak
+
+CLIENT	SERVER
+1.Client sends a SYN packet to the server that contains various flags set namely SYN ,FIN , RST, ACk
+this also has the seq number say x
+
+2. The server qould acknowledge this packet with SYN/ACK that will contain x+1 and y (its seq number)
+
+3. This will be also acknowlewdged by the client to the saerver by sending the ACK\after which the data transfer can begin..
+
+
+nmap -sS STEALTH ? SYN SCAN
+Nmpa uses this scan to make out whtther the port is open , filteres or closed...
+It sends a SYN packet
+waits for the SYN/ACK
+if it receives the ACK - it says that port is open
+if it receives RST - port is filtered ... By IDS that has some condition on that port which means that port is either being filtered for particular ip or service
+if no response means the port is closed....
+
+
+you can alsoa use arp -a to see the hosts that are up
+
