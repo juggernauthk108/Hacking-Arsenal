@@ -1,1 +1,11 @@
 i had followed the walkthrough and completed this box... pwnlab.. but yet i am going for it again on my own lets see what happens...
+
+test the cookies on the page to which they belong.. i mean if the index.html has lang cookie that is supposedly vulnerable to the LFI
+do not passs the cookie to another page as upload..... This is to be done i the intercepted package
+
+SUID set executables, run on owners ID... this can used for privilege escalation 
+
+i do not understand what is EUID ... google is not very clear about it (nor youtube)
+I was able to root the box but still exploring and trying to harwiore the steps in my head on many ways to root the box
+
+I'll take my time here
