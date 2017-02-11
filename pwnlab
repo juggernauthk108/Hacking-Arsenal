@@ -9,3 +9,25 @@ i do not understand what is EUID ... google is not very clear about it (nor yout
 I was able to root the box but still exploring and trying to harwiore the steps in my head on many ways to root the box
 
 I'll take my time here... 
+
+i also learnt in this a hack of changing the path of the executalbes:
+heres what i tought
+
+find the most used command on the historty: 
+history | tr ' ' '\n' | sort | uniq -c | sort -bnr | head
+
+suppose `cat` appears on the top of the list
+edit the bashrc file to the malicious script suppose it is in /home/script.sh
+
+export PATH=/home:$PATH
+
+and save the file 
+
+#within the cat
+#!/bin/bash
+echo this works && /bin/cat $1 #this will print "this works" and also execute the command after it... malicious code can be written here
+
+look for include funtion in the php websites... that denots RFI if the input is not properly sterilizxed
+
+need more understanding of RFI...
+
