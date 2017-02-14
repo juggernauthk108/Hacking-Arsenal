@@ -1,4 +1,0 @@
-this is was from pwnlab_init vm
-i learnt the use of cookies to execute the local file that was uploaded to server by faking the file signature to passs hte file type check
-adn then intercept the package from some brwoser addon or burp suite
-to tamper the cookie data and execute the local file to gicve u  reverse shell on lhost
